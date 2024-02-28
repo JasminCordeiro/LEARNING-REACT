@@ -15,3 +15,10 @@
 - Podemos interpolar variáveis, inserindo ela entre {};
 - É possível também executar funções em JSX;
 - Inserir valores em atributos de tags e também é válido em JSX.
+
+# componentes
+- Permite dividir a aplicação em partes;
+- Os componentes renderizam JSX, assim como App.js (que é um componente);
+- Precisamos criar um arquivo de componente;
+- É importa-lo onde precisamos utilizar;
+- Normalmente ficam em uma pasta chamada *components*;
