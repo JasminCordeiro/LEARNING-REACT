@@ -1,0 +1,17 @@
+# O que é React?
+- Uma biblioteca JS para criação de interfaces;
+- Utilizado para construir SPAs(Single Page Application);
+- Baseado em componentes;
+- Utiliza o JSX para renderizar HTML;
+- E aplica o virtual DOM para realizar as alterações de DOM;
+- Podemos adicionar a um projeto ou criam um projeto com ele.
+
+# Instalação
+- Create React App; npx create-react-app my-app
+
+# Entendendo o JSX
+- O JSX é como um HTML, porém dentro do código JS;
+- É a principal maneira de escrever HTML com o React;
+- Podemos interpolar variáveis, inserindo ela entre {};
+- É possível também executar funções em JSX;
+- Inserir valores em atributos de tags e também é válido em JSX.
