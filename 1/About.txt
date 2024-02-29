@@ -31,4 +31,15 @@
 - E precisa ser resgatado dentro de uma propriedade/argumento chamada props na função de definição do componente;
 - As props são somente de leitura.
 
-# Adcionando o CSS
+# Adicionando o CSS
+- O CSS  pode ser adicionado de forma global na aplicação, por meio do index.css por exemplo;
+- Porém é possível estilizar a nível de componentes;
+- Utilizamos o CSS modules para isso;
+- Basta criar um arquivo  como: componente.module.css;
+- E chamar esse CSS no componente.
+
+# Fragmentos
+- Os React Fragments permite a criação de um componente sem elemento pai;
+- O propósito é descomplicar os nós do DOM;
+- A sitaxe é <> e </>, não há um nome para a tag;
+- Criamos no próprio JSX.
