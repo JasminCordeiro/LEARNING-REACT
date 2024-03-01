@@ -1,70 +1,73 @@
-# O que é React?
-- Uma biblioteca JS para criação de interfaces;
-- Utilizado para construir SPAs(Single Page Application);
-- Baseado em componentes;
-- Utiliza o JSX para renderizar HTML;
-- E aplica o virtual DOM para realizar as alterações de DOM;
-- Podemos adicionar a um projeto ou criam um projeto com ele.
+# Visão Geral do React
 
-# Instalação
-- Create React App; npx create-react-app my-app
+## O que é React?
+- React é uma biblioteca JavaScript para construção de interfaces de usuário.
+- É usado para criar Aplicações de Página Única (SPAs).
+- Baseado em componentes.
+- Utiliza JSX para renderizar HTML.
+- Aplica o virtual DOM para efetuar mudanças no DOM de forma eficiente.
+- Pode ser adicionado a um projeto ou usado para criar um projeto.
 
-# Entendendo o JSX
-- O JSX é como um HTML, porém dentro do código JS;
-- É a principal maneira de escrever HTML com o React;
-- Podemos interpolar variáveis, inserindo ela entre {};
-- É possível também executar funções em JSX;
-- Inserir valores em atributos de tags e também é válido em JSX.
+## Instalação
+- Para instalar o React, utilize o comando: `npx create-react-app my-app`.
 
-# componentes
-- Permite dividir a aplicação em partes;
-- Os componentes renderizam JSX, assim como App.js (que é um componente);
-- Precisamos criar um arquivo de componente;
-- É importa-lo onde precisamos utilizar;
-- Normalmente ficam em uma pasta chamada *components*;
+## Entendendo o JSX
+- JSX é semelhante ao HTML, mas dentro do código JavaScript.
+- É a principal forma de escrever HTML com o React.
+- Podemos interpolar variáveis, colocando-as entre `{}`.
+- Funções também podem ser executadas em JSX.
+- Inserir valores em atributos de tags também é válido em JSX.
 
-# Props
-- As props são valores passados para componentes;
-- Podemos deixa-los dinâmicos;
-- Ou seja, mudando a execução por causa do valor da prop;
-- O valor é passado como um atributo na chamada do componente;
-- E precisa ser resgatado dentro de uma propriedade/argumento chamada props na função de definição do componente;
-- As props são somente de leitura.
+## Componentes
+- Permitem dividir a aplicação em partes.
+- Componentes renderizam JSX, assim como App.js (que é um componente).
+- Precisamos criar um arquivo de componente.
+- É importante importá-lo onde precisamos usá-lo.
+- Componentes geralmente são armazenados em uma pasta chamada *components*.
 
-# Adicionando o CSS
-- O CSS  pode ser adicionado de forma global na aplicação, por meio do index.css por exemplo;
-- Porém é possível estilizar a nível de componentes;
-- Utilizamos o CSS modules para isso;
-- Basta criar um arquivo  como: componente.module.css;
-- E chamar esse CSS no componente.
+## Props
+- Props são valores passados para componentes.
+- Podemos torná-los dinâmicos.
+- Ou seja, mudar a execução com base no valor da prop.
+- O valor é passado como um atributo na chamada do componente.
+- Precisa ser recuperado dentro de uma propriedade/argumento chamada `props` na função de definição do componente.
+- Props são apenas para leitura.
 
-# Fragmentos
-- Os React Fragments permite a criação de um componente sem elemento pai;
-- O propósito é descomplicar os nós do DOM;
-- A sitaxe é <> e </>, não há um nome para a tag;
-- Criamos no próprio JSX.
+## Adicionando CSS
+- CSS pode ser adicionado globalmente na aplicação, por exemplo, através de `index.css`.
+- No entanto, estilização a nível de componente também é possível.
+- Usamos módulos CSS para isso.
+- Basta criar um arquivo como `componente.module.css`.
+- E importar esse CSS no componente.
 
-# Avançando em Props
-- Podemso definir tipos para as props, realiziando uma espécie de validação;
-- Definimos em um objeto chamado propTypes no próprio componente;
-- E ainda há possibilidade de definir um valor padrão; 
-- Nesse caso utilizamos o objeto defaultProps. 
+## Fragmentos
+- Fragments do React permitem criar um componente sem um elemento pai.
+- O propósito é simplificar os nós do DOM.
+- A sintaxe é `<>` e `</>`, sem um nome de tag.
+- Criamos diretamente em JSX.
 
-# Eventos
-- Os evendos de React são os mesmos eventos do DOM;
-- Ou seja, temos eventos para respomder a um click;
-- O evento é atrelado a uma tag que irá executá-lo;
-- Geralmente um método é um atributo ao evento;
-- Este método deve ser criado no componente.
+## Avançando em Props
+- Podemos definir tipos para props, essencialmente realizando validação.
+- Definimos em um objeto chamado `propTypes` dentro do próprio componente.
+- Também é possível definir um valor padrão.
+- Neste caso, usamos o objeto `defaultProps`.
 
-# useState
-- O useState é um hook do React;
-- Com ele conseguimos manusear o estado de um componete de forma simples;
-- Este hook funciona muito bem com eventos;
-- Podemos atrelar um evento a mudança de state.
+## Eventos
+- Eventos do React são os mesmos eventos do DOM.
+- Ou seja, temos eventos para responder a cliques.
+- O evento é vinculado a uma tag que o executará.
+- Normalmente, um método é um atributo do evento.
+- Esse método deve ser criado no componente.
 
-# Métodos por props
-- Os métodos também podem ser passados por props;
-- Ou seja, um componente filho pode ativar o método do seu ancestral;
-- Vamos acessar o método por meio de um evento;
-- A sintaxe é a mesma de uma props de dados: props.meuEvento;
+## useState
+- `useState` é um hook do React.
+- Com ele, podemos gerenciar o estado de um componente facilmente.
+- Esse hook funciona bem com eventos.
+- Podemos vincular um evento à mudança de estado.
+
+## Métodos via Props
+- Métodos também podem ser passados via props.
+- Ou seja, um componente filho pode acionar um método de seu ancestral.
+- Acessamos o método por meio de um evento.
+- A sintaxe é a mesma de uma propriedade de dados: `props.meuEvento`.
+
