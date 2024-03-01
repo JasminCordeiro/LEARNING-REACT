@@ -56,3 +56,11 @@
 - O evento é atrelado a uma tag que irá executá-lo;
 - Geralmente um método é um atributo ao evento;
 - Este método deve ser criado no componente.
+
+# useState
+- O useState é um hook do React;
+- Com ele conseguimos manusear o estado de um componete de forma simples;
+- Este hook funciona muito bem com eventos;
+- Podemos atrelar um evento a mudança de state.
+
+# Métodos por props
