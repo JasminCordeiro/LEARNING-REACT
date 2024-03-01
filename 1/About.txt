@@ -43,3 +43,16 @@
 - O propósito é descomplicar os nós do DOM;
 - A sitaxe é <> e </>, não há um nome para a tag;
 - Criamos no próprio JSX.
+
+# Avançando em Props
+- Podemso definir tipos para as props, realiziando uma espécie de validação;
+- Definimos em um objeto chamado propTypes no próprio componente;
+- E ainda há possibilidade de definir um valor padrão; 
+- Nesse caso utilizamos o objeto defaultProps. 
+
+# Eventos
+- Os evendos de React são os mesmos eventos do DOM;
+- Ou seja, temos eventos para respomder a um click;
+- O evento é atrelado a uma tag que irá executá-lo;
+- Geralmente um método é um atributo ao evento;
+- Este método deve ser criado no componente.
